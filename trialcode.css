@@ -1,0 +1,262 @@
+
+
+
+
+
+.btn-1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.button:link, .button:visited{
+position: relative;
+text-decoration: none;
+display: inline-block;
+border-radius: 100px;
+padding: 15px 40px;
+transition: all 0.2s;
+}
+.button-blue{
+background-color: #ff1616;
+color: #fff;
+}
+.button:hover{
+transform: translateY(-3px);
+box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.button:active{
+transform: translateY(-1px);
+}
+.button::after{
+content: &quot;&quot;;
+display: inline-block;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+position: absolute;
+border-radius: 100px;
+z-index: -1;
+transition: all 0.4s;
+}
+.button-blue::after{
+background-color: #ff1616;
+}
+.button:hover::after{
+transform: scale(1.4, 1.6);
+opacity: 0;
+}
+
+
+
+.disclaimer {
+background: #fff3cd;
+}
+
+div#HTML11 {
+display: grid;
+}
+.match-container:has(.date.end) {order: 99;}
+div#HTML11 {
+padding-bottom: 7px;
+}
+
+
+
+/*-- Auto Image with VS --*/
+.coMatch{position:relative;margin-bottom:15px;border-radius:0px;}
+.backMatch{ opacity: 0.9;);overflow:hidden;position:relative;display:block;border-radius:2px;background:url(https://t3.ftcdn.net/jpg/02/70/73/76/360_F_270737695_IaAkTD2p7vhmI5YNuYAGYlk2pGVwJUXS.jpg);background-size:100% 100%;}
+.baMatch{overflow:hidden;display:block;background:rgb(0 0 0 / 59%);}
+.colmd{width:40%;float:right;text-align:center;padding:45px 0 35px 0;color:#fff;}
+.teamlogo{max-width:90px;height:90px;background-size:cover;margin:15px auto;}
+.colmd.ce{width:20%;}
+.matchvs{display:flex;flex-direction:column;justify-content:center;position:absolute;z-index:9;right:0;bottom:0;left:0;margin:0;top:0;content:&#39;vs&#39;;font-size:40px;font-weight:bold;margin-top:25px;}
+
+
+
+
+
+
+/*-- Football New Link CSS --*/
+
+.match-container{overflow:hidden;text-align:center;background:#eceef2;margin:12px;position:relative;border-radius:8px}
+.match-container h4{margin:30px 0}
+.right-team,.left-team,.match-center{width:33.33333333%;float:right}
+.team-logo{float:right;width:50%}
+.left-team .team-logo{float:left}
+.team-logo img{margin:10px auto;display:flex}
+.team-name{margin:28px auto;display:table}
+.match-timing{margin:12px auto}
+#result{font-size:16px;font-weight: 700; letter-spacing:0px;margin-right:-5px}
+.match-timing .date,.match-timing .live:before{color:#fff;background:#A52A2A;border-radius:5px;font-size:14px;padding:0 10px;line-height:1.9;display:table;margin:auto;margin-top:6px;position:relative}
+.match-timing .live:before{right: 0;content:&quot;Live Now&quot;;position:absolute;animation:blinker 900ms ease-in-out infinite;margin:0}
+
+.match-timing .live {
+background: #A52A2A;
+}
+.match-timing .end{background:#000000}
+.match-timing .soon{background:#000000}
+.match-info{border-top:1px solid #ddd;display:table;overflow:hidden;width:100%}
+.match-info li{width:33.33333333%;float:right;font-size:14px;font-weight:100}
+.overlay-match{position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;opacity:0;cursor:pointer;background:rgb(0 0 0 / 60%);z-index:9}
+.match-container:hover .overlay-match{opacity:1}
+.text-match{position:absolute;bottom:0;right:0;height:45px;margin:auto;left:0;top:0;width:45px;background:no-repeat center url(&quot;data:image/svg+xml;charset=utf8,%3Csvg aria-hidden=&#39;true&#39; role=&#39;img&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 512 512&#39; %3E%3Cpath fill=&#39;%23fff&#39; d=&#39;M256,0C114.617,0,0,114.615,0,256s114.617,256,256,256s256-114.615,256-256S397.383,0,256,0z M344.48,269.57l-128,80 c-2.59,1.617-5.535,2.43-8.48,2.43c-2.668,0-5.34-0.664-7.758-2.008C195.156,347.172,192,341.82,192,336V176 c0-5.82,3.156-11.172,8.242-13.992c5.086-2.836,11.305-2.664,16.238,0.422l128,80c4.676,2.93,7.52,8.055,7.52,13.57 S349.156,266.641,344.48,269.57z&#39; class=&#39;&#39;%3E%3C/path%3E%3C/svg%3E&quot;)}
+.containerMatch {
+border: 1px solid #ddd;
+overflow: hidden;
+text-align: center;
+background: #eceef2;
+margin: 12px;
+position: relative;
+border-radius: 8px;
+padding: 30px 10px;
+font-weight: 700;
+}
+
+
+/*-- Channel Links --*/
+.nav&gt;li {
+position: relative;
+display: block;
+}
+.nav&gt;li&gt;a {
+position: relative;
+display: block;
+padding: 4px 8px;
+}
+.nav&gt;li&gt;a:focus, .nav&gt;li&gt;a:hover {
+text-decoration: none;
+background-color: #fff;
+color: black;
+font-weight: bold;
+}
+.nav&gt;li.disabled&gt;a {
+color: #777;
+}
+.nav&gt;li.disabled&gt;a:focus, .nav&gt;li.disabled&gt;a:hover {
+color: #777;
+text-decoration: none;
+cursor: not-allowed;
+background-color: transparent;
+}
+.nav .open&gt;a, .nav .open&gt;a:focus, .nav .open&gt;a:hover {
+background-color: #eee;
+border-color: #337ab7;
+}
+.nav .nav-divider {
+height: 1px;
+margin: 9px 0;
+overflow: hidden;
+background-color: #e5e5e5;
+}
+.nav&gt;li&gt;a&gt;img {
+max-width: none;
+}
+.nav-tabs {
+border: 0px;
+}
+.nav-tabs&gt;li {
+float: left;
+margin-bottom: 2px;
+}
+.nav-tabs&gt;li&gt;a {
+margin-right: 4px;
+line-height: 1.42857143;
+border: 1px solid black;
+font-weight: bolder;
+background: ##ffffff;
+
+}
+.nav-tabs&gt;li&gt;a:hover {
+border-color: #eee #eee #ddd;
+}
+.nav-tabs&gt;li.active&gt;a, .nav-tabs&gt;li.active&gt;a:focus, .nav-tabs&gt;li.active&gt;a:hover {
+color: #555;
+font-weight: bolder;
+cursor: default;
+background-color: #fff;
+border: 1px solid #ddd;
+border-bottom-color: transparent;
+}
+.nav-tabs.nav-justified {
+width: 100%;
+border-bottom: 0;
+}
+.nav-tabs.nav-justified&gt;li {
+float: none;
+}
+.nav-tabs.nav-justified&gt;li&gt;a {
+margin-bottom: 5px;
+text-align: center;
+}
+.nav-tabs.nav-justified&gt;.dropdown .dropdown-menu {
+top: auto;
+left: auto;
+}
+.nav-tabs.nav-justified&gt;li&gt;a {
+margin-right: 0;
+border-radius: 4px;
+}
+.nav-tabs.nav-justified&gt;.active&gt;a, .nav-tabs.nav-justified&gt;.active&gt;a:focus, .nav-tabs.nav-justified&gt;.active&gt;a:hover {
+border: 1px solid #ddd;
+}
+
+.video-item {
+padding: 10px;
+color: white;
+border: none;
+}
+.form-control {
+display: none;
+width: 95%;
+height: 34px;
+padding: 6px 12px;
+font-size: 9px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.league{width: 15%; }
+.gname {width: 60%; }
+.liveg {width: 25px;}
+.league a { font-size: 9px; }
+
+
+
+
+/*-- Match with Image --*/
+.leaguefixturetable {
+padding: 0px;
+}
+
+.fixtableheader
+{
+background: linear-gradient(rgba(255, 255, 255, 0) 80px, white 160px), linear-gradient(to right, rgb(2, 239, 255), rgb(98, 123, 255));
+border-radius: px;
+padding: 10px;
+}
+
+.fixtableheader img {
+text-align: center;
+margin: auto;
+width: 50%;display: block;padding-bottom:5px;
+}
+
+.fixtableheader p {
+font-weight: bold;
+margin: auto;
+text-align: center;
+font-size: 12px;
+border-radius: 10px;
+line-height: 1.5;
+}
+
